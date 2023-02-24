@@ -42,4 +42,38 @@ Console.Write(max);
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, 
 // является ли число чётным (делится ли оно на два без остатка).
 
+/*
+Console.Write("Imput a number: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+
+if ((number1 % 2)== 0)
+{
+    Console.WriteLine("четное!");
+}
+else
+{
+    Console.WriteLine("не четное!");
+}
+*/
+
+// Задача 8: Напишите программу, которая на вход принимает число (N),
+// а на выходе показывает все чётные числа от 1 до N.
+
+/*
+Console.Write("Imput a number: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+
+for (int n = 1; n <= number1; n++)
+    
+if (n % 2 == 0)
+{
+    Console.WriteLine(n);
+}
+*/
+
+
+
+
+
+
 
