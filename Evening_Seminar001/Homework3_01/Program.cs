@@ -137,4 +137,30 @@ return max-min;
 }
 ImputSizeArray(arr);
 Console.Write($"The difference between the maximum and minimum array elements: {Difference(randomArray):F2}");
+
+//----------
+
+void ImputSizeArray(int num)
+{
+Random rand = new Random();
+for (int i = 0; i < arr; i++)
+{
+randomArray[i] = (rand.NextDouble() * 2.0);
+// double exponent = Math.Pow(2.0, rand.Next(1, 10)); // эти две строки меняли только отображение в консоли, а заполнялось всё в массив выше.
+// Console.Write($"{randomArray[i] * exponent:F1} "); // здесь вы вели отображение, оно будет корректным, если вы заново переприсвоите элементы массива
+}
+}
+Вот примерно таким образом, то тогда и отображение и заполнение будет верным
+void ImputSizeArray(int num)
+{
+Random rand = new Random();
+for (int i = 0; i < arr; i++)
+{
+randomArray[i] = (rand.NextDouble() * 2.0);
+double exponent = Math.Pow(2.0, rand.Next(1, 10));
+randomArray[i] = randomArray[i] * exponent;
+Console.Write($"{Math.Round(randomArray[i], 2)} ");
+}
+}
+
 */
