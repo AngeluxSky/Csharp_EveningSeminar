@@ -159,6 +159,8 @@ Console.WriteLine($"Your array: [{string.Join(", ", result)}]");
 int[] newArr = Reverse(result);
 Console.WriteLine($"Reverse array: [{string.Join(", ", newArr)}]");
 */
+
+
 /*
 void Main(string[] args)
 {
@@ -178,6 +180,8 @@ Console.Write($"Fibonacci {Main} {0} {1} {1} ", num, one, two);
 }
 */
 
+
+/*
 Console.Write("Ввести число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
@@ -202,7 +206,7 @@ void PrintArray(int[] array)
 {
     Console.WriteLine(@"[{0}]", string.Join(",", array));
 }
-
+*/
 
 /*
 int[] array = CreateArrayRndInt(0, 10, 8);
