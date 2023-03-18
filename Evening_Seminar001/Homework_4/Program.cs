@@ -127,7 +127,7 @@ void Sum(int m, int n)
         {
             sum = sum + randomArray[i, j];
         }
-        Console.Write($"{sum / (i):F1}; ");
+        Console.Write($"{Math.Round(sum / (i), 1)}; ");      //{..:F2}
     }
 }
 Massive(m, n);
