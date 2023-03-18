@@ -47,14 +47,14 @@ PrintArray(randomArray);
 // 17 -> такого числа в массиве нет
 
 /*
-Console.Write("Введите размерность m массива: ");
+Console.Write("Введите m массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите размерность n массива: ");
+Console.Write("Введите n массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 double[,] randomArray = new double[m, n];
-Console.Write("Введите позицию строки: ");
+Console.Write("Укажите позицию строки: ");
 int position1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите позицию столбца: ");
+Console.Write("Укажите позицию столбца: ");
 int position2 = Convert.ToInt32(Console.ReadLine());
 
 void RandomArray(int m, int n)
@@ -75,15 +75,15 @@ void RandomArray(int m, int n)
 RandomArray(m, n);
 if (position1 < 1 || position2 < 1)
 {
-    Console.Write("Позиции строк не могут быть отрицательными");
+    Console.Write("Ошибка: вы указали отрицательную позицию строки");
 }
 else if (position1 <= m + 1 && position2 <= n + 1)
 {
-    Console.Write($"Значение элемента равно {randomArray[position1 -1, position2 -1]} ");
+    Console.Write($"Значение элемента = {randomArray[position1 -1, position2 -1]} ");
 }
 else
 {
-    Console.Write("Такого элемента нет в массиве");
+    Console.Write("Такого элемента - нет");
 }
 */
 
