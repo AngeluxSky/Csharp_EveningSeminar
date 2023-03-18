@@ -4,9 +4,9 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 /*
-Console.Write("Введите m: ");
+Console.Write("Введите m массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите n: ");
+Console.Write("Введите n массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 double[,] randomArray = new double[m, n];
 Random rnd = new Random();
@@ -95,9 +95,9 @@ else
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 /*
-Console.Write("Введите m: ");
+Console.Write("Введите m массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите n: ");
+Console.Write("Введите n массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] randomArray = new int[m, n];
 Random rnd = new Random();
