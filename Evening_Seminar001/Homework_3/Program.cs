@@ -7,16 +7,16 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input second number: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 int c = 1;
-if (num2<1)
-Console.Write("Число B должно быть натуральным");
+if (num2 < 1)
+    Console.Write("Число B должно быть натуральным");
 else
 {
-while (num2!=0)
-{
-c = c * num1;
-num2 = num2 - 1;
-}
-Console.Write($"Число A в натуральной степени B равно {c}");
+    while (num2 != 0)
+    {
+        c = c * num1;
+        num2 = num2 - 1;
+    }
+    Console.Write($"Число A в натуральной степени B равно {c}");
 }
 */
 
@@ -26,28 +26,28 @@ Console.Write($"Число A в натуральной степени B равн
 Console.Write("Input a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int len = Length(num);
-Console.Write($"The sum of the number - {num} equally: {Sum(num,len)}");
+Console.Write($"The sum of the number - {num} equally: {Sum(num, len)}");
 
 int Length(int num)
 {
-int index = 0;
-while (num > 0)
+    int index = 0;
+    while (num > 0)
     {
-    num /= 10;
-    index++;
+        num /= 10;
+        index++;
     }
-return index;
+    return index;
 }
 
 int Sum(int num, int len)
 {
-int sum = 0;
-for (int i = 1; i <= len; i++)
+    int sum = 0;
+    for (int i = 1; i <= len; i++)
     {
-    sum += num % 10;
-    num /= 10;
+        sum += num % 10;
+        num /= 10;
     }
-return sum;
+    return sum;
 }
 */
 
