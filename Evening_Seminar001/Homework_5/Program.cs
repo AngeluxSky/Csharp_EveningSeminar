@@ -142,7 +142,7 @@ Console.WriteLine($"Номер строки с наименьшей суммой
 // 27(0,0,1) 90(0,1,1)
 // 26(1,0,1) 55(1,1,1)
 
-
+/*
 void FillMatrixWithRandom(int[,,] matrix)
 {
     int[] temp = new int[matrix.GetLength(0) * matrix.GetLength(1) * matrix.GetLength(2)];
@@ -212,3 +212,4 @@ int z = Convert.ToInt32(Console.ReadLine());
 int[,,] matrix = new int[x, y, z];
 FillMatrixWithRandom(matrix);
 PrintArray(matrix);
+*/
